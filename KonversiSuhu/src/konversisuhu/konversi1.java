@@ -196,7 +196,7 @@ private float kelvin;
        float a = Float.parseFloat(input_celcius.getText());
        fahrenheit = ((a*9)/5)+32;
        String hsl = String.valueOf(fahrenheit);
-       hasil.setText(hsl);          
+       hasil.setText(hsl);        
     }//GEN-LAST:event_Btn_FActionPerformed
 
     private void Btn_RActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Btn_RActionPerformed
