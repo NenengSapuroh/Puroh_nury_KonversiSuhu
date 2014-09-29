@@ -49,6 +49,8 @@ private float kelvin;
         setLocationByPlatform(true);
         setResizable(false);
 
+        jPanel1.setBackground(new java.awt.Color(255, 102, 204));
+
         jLabel1.setBackground(new java.awt.Color(255, 102, 51));
         jLabel1.setFont(new java.awt.Font("Ravie", 1, 18)); // NOI18N
         jLabel1.setText("Konversi Suhu");
@@ -199,6 +201,11 @@ private float kelvin;
 
     private void Btn_RActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Btn_RActionPerformed
         // TODO add your handling code here:
+        float p = Float.parseFloat(input_celcius.getText());
+        reamur = p/(5*4);
+        String hsl = String.valueOf(reamur);
+        hasil.setText(hsl);   
+        
     }//GEN-LAST:event_Btn_RActionPerformed
 
     /**
